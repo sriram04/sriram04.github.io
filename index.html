@@ -1,0 +1,324 @@
+a<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/5121e361ec.js" crossorigin="anonymous"></script>
+    <style>
+      .fa-database{
+        font-size: 30px;
+      }
+      .fa-linkedin-in{
+        font-size: 30px;
+        padding: 10px;
+      }
+      .fa-github{
+        font-size: 30px;
+        padding: 10px;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#hero">
+              <h1><span>S</span>riram <span>R</span>eddy</h1>
+            </a>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="#hero" data-after="Home">Home</a></li>
+              <li><a href="#services" data-after="Service">Skills</a></li>
+              <li><a href="#projects" data-after="Projects">Projects</a></li>
+              <li><a href="#about" data-after="About">About</a></li>
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+    <!-- home visibility -->
+    <section id="hero">
+      <div class="hero container">
+        <div>
+          <h1>Hello,<span></span></h1>
+          <h1>My Name is <span></span></h1>
+          <h1>Sriram Reddy <span></span></h1>
+          <a href="#projects" type="button" class="cta">Portfolio</a>
+        </div>
+      </div>
+    </section>
+    <!-- end of home visibility-->
+    <!--service section-->
+    <section id="services">
+      <div class="services container">
+        <div class="service-top">
+          <h1 class="section-title">Sk<span>i</span>lls</h1>
+          <p>
+            These are the tech stack I'm well equiped with.
+          </p>
+        </div>
+        <div class="service-bottom">
+          <div class="service-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/color/48/000000/html-5.png" />
+              <img src="https://img.icons8.com/color/48/000000/css3.png" />
+              <img
+                src="https://img.icons8.com/color/48/000000/javascript.png"
+              />
+              <img src="https://img.icons8.com/office/40/000000/react.png" />
+              <img src="https://img.icons8.com/color/48/000000/nodejs.png" />
+              <img src="https://img.icons8.com/color/48/000000/php.png" />
+              
+            </div>
+            <h2>Full Stack Technologies</h2>
+            <p>
+            Html5, CSS3, JavaScript, ReactJS, Redux, NodeJS,PHP.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+              />
+              <img
+                src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
+              />
+              <img src="https://img.icons8.com/color/48/000000/python.png" />
+            </div>
+            <h2>Programing Languages</h2>
+            <p>
+              C++, JAVA, Python
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <i class="fa-solid fa-database"></i>
+
+              <!-- <img
+                src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"
+              /> -->
+              <img
+                src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"
+              />
+            </div>
+            <h2>Databases</h2>
+            <p>
+              SQL Server, MySQL, MongoDB, PostgreSQL.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/color/48/000000/amazon-web-services.png"
+              />
+              <img src="https://img.icons8.com/color/48/000000/heroku.png" />
+            </div>
+            <h2>Cloud Technologies</h2>
+            <p>
+              AWS, Heroku
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end service section-->
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Recent <span>Projects</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Online Banking System</h1>
+              <h2>[React, Redux, Node, JAVA, SQLite DB]</h2>
+              <p>
+                Designed and developed a fault-tolerant banking system that
+                helps us to make e-payments from the comfort of our homes or any place. All the banking operations such as
+                debit/credit/check balances are included in this system which has a User-friendly interface built using React JS, HTML, CSS,
+                and Java. SQLite is used for performing database operations.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./bank.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Health Sure</h1>
+              <h2> [React, Bootstrap, Django, AWS, Agile]</h2>
+              <p>
+                 Developed a full-stack patient and insurance management
+system platform that helps citizens to claim insurance, check the availability of doctors, and book appointments.
+React.JS and Bootstrap have been used for the client User interface. Django has been used for the backend. Implemented
+various features like 2-factor authentication (OTP),Google SSO, Auth tokens, and User-specific dashboards for patients and
+doctors. Covid testing, search filters, Chat Box, maps & calendar, etc. Deployed the application using AWS.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./healthsure.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Bank Subscription Prediction</h1>
+              <h2>[Python, Scikit-learn, Matplotlib]</h2>
+              <p>
+                 Developed a Machine learning application that predicts if the customer
+                will subscribe to a particular bank. Several Machine learning algorithms like Logistic Regression, Gradient Boost Classifier,
+                Random Forest Classifier, and Stacking Classifier are used to predict the accuracy and considered the algorithm which is
+                giving the most accurate results
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./ban sub predict.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>E-Learning</h1>
+              <h2>[Java, MYSQL and SDLC Methodologies(Agile)]</h2>
+              <p>
+                Implemented a full-stack website which can be utilized by a student to listen classes, take quizes and learn multiple technologies by the best teaching methods from the comfort of their home.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./e-learning.avif" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Publication and Patent <a href="https://ieeexplore.ieee.org/document/9402271" target="_blank">🔗 </a> </h1>
+              <h2>Arduino based Automated Safety ensuring System for Passenger Boats</h2>
+              <p>
+                Executed the idea of utilizing sensors in the boats which could diminish the fatality rate in boat mishaps by using multiple sensors (infrared (IR) sensor, water sensor, etc.) and developed code in Arduino integrated development environment (IDE), in order to achieve the same. Worked on a prototype and published a research paper and patent (Patent no. 202141031102) reviewed by IEEE which won the best innovative Research Paper award - 2021 VIT University.
+                </p>
+            </div>
+            <div class="project-img">
+              <img src="./Publication.jpeg" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- ABOUT SECTION-->
+
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="./blackbg.jpeg" alt="IMG" />
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title">About <span>me</span></h1>
+          <h2>Education</h2>
+          <p> Curently purching masters at Indiana University Bloomington in Computer Science. </p> 
+          <h2>Work Experince</h2>
+          <p> Worked for 1.1 year at Tata Consultancy Services as System Engineer
+          </p>
+          <a href="./Sriram_Reddy Pidaparthi_Resume.pdf" target="_blank type="button" class="cta">View Resume</a>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT SECTION-->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Contact <span>info</span></h1>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/bubbles/100/000000/phone.png" />
+            </div>
+            <div class="contact-info">
+              <h1>Phone</h1>
+              <h2><a href="tel:812-778-4656" target="_blank">+1(812)778-4656</a></h2>
+              <h2><a href="tel:+917095122112" target="_blank">+917095122112</a></h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/new-post.png"
+              />
+            </div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2><a href = "mailto: pidaparthisriram0031@gmail.com" target="_blank" >pidaparthisriram0031@gmail.com</a></h2>
+              <h2><a href = "mailto: sripidap@iu.edu" target="_blank">sripidap@iu.edu</a></h2>
+              
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/map-marker.png"
+              />
+            </div>
+            <div class="contact-info">
+              <h1>Address</h1>
+              
+              <h2><a href = "https://www.google.com/maps/place/Bloomington,+IN/@39.1712129,-86.531846,13z/data=!3m1!4b1!4m6!3m5!1s0x886c5df6b483d8e7:0xe91a912d8bad33d9!8m2!3d39.165325!4d-86.5263857!16zL20vMHNudHk?entry=ttu" target="_blank">Bloomington, Indiana, United States</a></h2>
+              <h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand">
+          <h1><span>S</span>riram <span>R</span>eddy</h1>
+        </div>
+        <h2>Personal Portfolio</h2>
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=100009612706906"
+            target="_blank"><img
+                src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
+            /></a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.instagram.com/ram__.41/" target="_blank"
+              ><img
+                src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
+            /></a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.linkedin.com/in/sriram-reddy-pidaparthi/" target="_blank"
+              > <i class="fa-brands fa-linkedin-in fa-beat-fade" style="color: #fafafa;"></i>
+              </a> 
+          </div>
+          <div class="social-item">
+            <a href="https://github.com/sriram04" target="_blank"
+              ><i class="fa-brands fa-github" style="color: #ffffff;"></i>
+            /></a>
+          </div>
+        </div>
+        <p>Copyright © 2023 Sriram Reddy. All rights reserved</p>
+      </div>
+    </section>
+    <!-- End Footer -->
+    <script src="./app.js"></script>
+  </body>
+</html>

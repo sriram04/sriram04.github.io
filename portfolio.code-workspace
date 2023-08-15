@@ -1,0 +1,10 @@
+{
+  "folders": [
+	{
+		"path": "..\\CSS"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "coffe"
+  }
+}
